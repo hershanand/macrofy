@@ -1,0 +1,23 @@
+<div>
+  <nav class="navibar">
+    <div class="naviInner">
+      <button ng-click="ctrl.FBLogin()">Login to Facebook</button>
+    </div>
+  </nav>
+  <div class="wrapper">
+    <section class="content">
+      <div id="map-canvas"></div>
+      <blockquote>
+        <h1>Find what fits your macros</h1>
+        <label class="label">Fats: </label>
+        <input ng-model="ctrl.searchCriteria.userFats" type="number"><br>
+        <label class="label">Carbs: </label>
+        <input ng-model="ctrl.searchCriteria.userCarbs" type="number"><br>
+        <label class="label">Protein: </label>
+        <input ng-model="ctrl.searchCriteria.userProtein" type="number"><br>
+      </blockquote>
+      <button ng-click="ctrl.onSearch(ctrl.searchCriteria)">Search</button>
+      <!--<div ng-repeat="rs in ctrl.searchResults.results">YOU CAN GET SOME <b>{{rs.item_name}}</b> @ {{rs.brand_name}} <img src={{rs.thumbnail}}><br></div>-->
+    </section>
+  </div>
+</div>
