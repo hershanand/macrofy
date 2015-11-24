@@ -1,6 +1,6 @@
 ## Macrofy
 
-![Macrofy](https://github.com/macrofy/images/screenshot.png "Macrofy")
+![Macrofy](https://raw.githubusercontent.com/hershanand/macrofy/master/images/screenshot.png "Macrofy")
 
 [Macrofy](http://macrofy.co) searches nearby restaurants and returns a selection of food items that fall within the user's macronutrients. The results are displayed within the console.
 
